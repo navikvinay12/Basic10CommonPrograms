@@ -9,7 +9,8 @@
                 "Press 2  : Leap Year\n" +
                 "Press 3  : Power of 2\n" +
                 "Press 4  : Harmonic Number\n" +
-                "Press 5  : Prime Factorization\n");
+                "Press 5  : Prime Factorization\n" +
+                "Press 6  : Quotient and Remainder\n");
         }
         public static void Main(string[] args)
         {
@@ -31,6 +32,9 @@
                     break;
                 case 5:
                     PrimeFactorization5.PrimeFactors();
+                    break;
+                case 6:
+                    QuotientRemainder6.FindingQuotientRemainder();
                     break;
                 default :
                     Console.WriteLine("Please enter input in range 1-10 only");
