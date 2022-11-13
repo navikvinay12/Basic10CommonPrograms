@@ -8,7 +8,8 @@
                 "Press 1  : Flip Coin and print percentage of Heads and Tails\n"+
                 "Press 2  : Leap Year\n" +
                 "Press 3  : Power of 2\n" +
-                "Press 4  : Harmonic Number\n");
+                "Press 4  : Harmonic Number\n" +
+                "Press 5  : Prime Factorization\n");
         }
         public static void Main(string[] args)
         {
@@ -28,8 +29,11 @@
                 case 4:
                     Harmonic4.HarmonicNumber();
                     break;
+                case 5:
+                    PrimeFactorization5.PrimeFactors();
+                    break;
                 default :
-                    Console.WriteLine("Please enter input in ragne 1-10 only");
+                    Console.WriteLine("Please enter input in range 1-10 only");
                     break;
             }
         }
