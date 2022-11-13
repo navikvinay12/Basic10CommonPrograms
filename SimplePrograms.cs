@@ -12,7 +12,8 @@
                 "Press 5  : Prime Factorization\n" +
                 "Press 6  : Quotient and Remainder\n" +
                 "Press 7  : Swap Two Numbers\n" +
-                "Press 8  : Check Even or Odd\n");
+                "Press 8  : Check Even or Odd\n" +
+                "Press 9  : Check if Alphabet is a Vowel or not\n");
         }
         public static void Main(string[] args)
         {
@@ -43,6 +44,9 @@
                     break;
                 case 8:
                     EvenOdd8.EvenOddStatus();
+                    break;
+                case 9:
+                    Vowel9.CheckingVowel();
                     break;
                 default :
                     Console.WriteLine("Please enter input in range 1-10 only");
